@@ -12,3 +12,7 @@
     border: 1px solid black;
     height: 125px;
 }
+
+.board-cell:hover {
+    background-color:greenyellow;
+}
