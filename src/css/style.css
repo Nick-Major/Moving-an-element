@@ -1,4 +1,14 @@
-.img {
-    width: 150px;
-    height: 150px;
+.board {
+    display: grid;
+    width: 500px;
+    margin: 50px auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+    cursor: pointer;
+}
+
+.board-cell {
+    background-color: aqua;
+    border: 1px solid black;
+    height: 125px;
 }
